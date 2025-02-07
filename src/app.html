@@ -6,22 +6,38 @@
     <link rel="stylesheet" href="./output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <title>cloning2</title>
 </head>
 <body class="bg-white">
     <!-- header section -->
      <header class=" top-0 h-[90px] z-30 bg-white">
-        <div class="container mx-auto flex justify-start items-center space-x-2">
-            <span class="text-2xl font-bold">Goldsmiths</span>
-            <p class="text-sm">UNIVERSITY OF LONDON</p>
+        <div class="container mx-auto flex flex-col justify-start items-start mt-5 ml-15">
+            <span class="text-4xl font-bold">Goldsmiths</span>
+            <p class="text-xs mr-10 ml-10 font-bold">UNIVERSITY OF LONDON</p>
+        </div>
+        <div class="absolute top-0 right-0 bg-gray-300 flex items-center space-x-2 px-4 py-2 rounded-bl-[290px] text-2xl font-bold hover:bg-gray-800 hover:text-white">
+            <i class="ri-graduation-cap-line"></i>
+            <p class="text-sm">Students, Staff and Alumni</p>
         </div>
         <nav>
-            <ul class="flex justify-end space-x-6">
-                <li><a href="#" class="hover:bg-gray-200 px-3 py-1 rounded">Study</a></li>
-                <li><a href="#" class="hover:bg-gray-200 px-3 py-1 rounded">Coursefinder</a></li>
-                <li><a href="#" class="hover:bg-gray-200 px-3 py-1 rounded">International</a></li>
-                <li><a href="#" class="hover:bg-gray-200 px-3 py-1 rounded">Search</a></li>
+            <ul class="flex justify-end space-x-6 ml-20 mr-20">
+                <li><a href="#" class="hover:bg-gray-800 px-3 py-1 rounded font-bold hover:text-white">Study</a></li>
+                <li><a href="#" class="hover:bg-gray-800 px-3 py-1 rounded font-bold hover:text-white">Coursefinder</a></li>
+                <li><a href="#" class="hover:bg-gray-800 px-3 py-1 rounded font-bold hover:text-white">International</a></li>
+                <li class="flex items-center">
+                    <a href="#" class="hover:bg-gray-800 px-3 py-1 rounded font-bold hover:text-white flex items-center space-x-0.5">
+                        <span>More</span>
+                        <i class="ri-arrow-down-s-line text-lg hover:text-white"></i>
+                    </a>
+                </li>                
+                <li>
+                    <a href="#" class="hover:bg-gray-800 px-3 py-1 rounded font-bold hover:text-white flex items-center space-x-2">
+                        <i class="ri-search-line"></i>
+                        <span>Search</span>
+                    </a>
+                </li>
             </ul>
             
         </nav>
