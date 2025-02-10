@@ -8,8 +8,10 @@ module.exports = {
                 poppins: ['Poppins', 'sans-serif'],
                 roboto: ['Roboto', 'sans-serif'],
                 montserrat: ['Montserrat', 'sans-serif'],
-                serifFont: ['Merriweather', 'serif'] // Add 'Poppins' font
-            },
+                serifFont: ['Merriweather', 'serif'],
+                arial: ['Arial', 'sans-serif'], 
+                bazooka: ['Bazooka', 'sans-serif']
+            },            
         },
         container: {
             padding: {
