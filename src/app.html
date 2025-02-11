@@ -53,7 +53,7 @@
     
             <!-- The main image (resized & positioned inside the frame) -->
             <img src="../imgs/hero.jpg" 
-            class="absolute top-0 h-full w-[62%] max-w-none object-cover z-10 mt-2" 
+            class="absolute top-0 h-[97%] w-[62%] max-w-none object-cover z-10 mt-3 -mb-8" 
             alt="Main Image">
         
             <!-- The frame (overlay on top) -->
@@ -87,13 +87,90 @@
 
       <!-- icon section -->
        <section>
-        <div class="bg-amber-300">
-
+        <div class="containe w-full h-[30vh] bg-amber-100 flex justify-between items-center p-30 ">
+            <!-- First Icon -->
+            <div class="flex flex-col items-center text-center">
+                <svg width="77" height="48" viewBox="0 0 77 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_355_257)">
+                        <path d="M2.01196 2.0202H74.9879V45.9798H2.01196V2.0202Z" stroke="#37424A" stroke-width="3"
+                            stroke-linecap="round"></path>
+                        <path d="M45 23.025C45 27.4535 48.6708 31.0501 53.2045 31.0501C57.7382 31.0501 61.409 27.4596 61.409 23.025C61.409 18.5905 57.732 15 53.2045 15C48.677 15 45 18.5905 45 23.025Z"
+                            stroke="#37424A" stroke-width="3"></path>
+                        <path d="M58.8176 29.3604L63.1358 33.5841" stroke="#37424A" stroke-width="3"></path>
+                    </g>
+                </svg>
+                <p class="font-bold">Search our<br> courses</p>
+            </div>
+        
+            <!-- Second Icon -->
+            <div class="flex flex-col items-center text-center">
+                <svg width="72" height="61" viewBox="0 0 72 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M40.1299 50.22H71.9599" stroke="#37424A" stroke-width="3"></path>
+                    <path d="M40.3198 6.84998H53.4198V50.22" stroke="#37424A" stroke-width="3"></path>
+                    <path d="M0 50.22H20.61" stroke="#37424A" stroke-width="3"></path>
+                    <path d="M20.6099 50.35V6.85L40.0199 2V58.31L20.6099 50.35Z" stroke="#37424A" stroke-width="3"></path>
+                    <path d="M35.5075 30H35.4925C34.6682 30 34 30.6682 34 31.4925V31.5075C34 32.3318 34.6682 33 35.4925 33H35.5075C36.3318 33 37 32.3318 37 31.5075V31.4925C37 30.6682 36.3318 30 35.5075 30Z"
+                        fill="#37424A"></path>
+                </svg>
+                <p class="font-bold">Open Days and<br> visits</p>
+            </div>
+        
+            <!-- Third Icon -->
+            <div class="flex flex-col items-center text-center">
+                <svg width="55" height="56" viewBox="0 0 55 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M53 54H2V25.957L27.5 3L53 25.9395V53.9826V54Z" stroke="#37424A" stroke-width="3"></path>
+                </svg>
+                <p class="font-bold">Accommodation<br> options</p>
+            </div>
+        
+            <!-- Fourth Icon -->
+            <div class="flex flex-col items-center text-center">
+                <svg width="51" height="52" viewBox="0 0 51 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_355_270)">
+                        <path d="M40.9157 1.75024V37.5779H10.4525L1.75378 43.0037V1.75024H40.9157Z" stroke="#37424A"
+                            stroke-width="3"></path>
+                        <path d="M43.4241 16.9998H49.9999V48.9998L43.1051 44.7874H18.9999V39.9163" stroke="#37424A"
+                            stroke-width="3"></path>
+                        <path d="M13.0131 18.7277H14.3985V20.1104H13.0131V18.7277Z" stroke="#37424A" stroke-width="3"></path>
+                        <path d="M21.3435 18.7277H22.729V20.1104H21.3435V18.7277Z" stroke="#37424A" stroke-width="3"></path>
+                        <path d="M29.6564 18.7277H31.0419V20.1104H29.6564V18.7277Z" stroke="#37424A" stroke-width="3"></path>
+                    </g>
+                </svg>
+                <p class="font-bold">Chat with our students</p>
+            </div>
         </div>
        </section>
        <!-- icon section end -->
+
+       <!-- open Days section -->
+        <section>
+            <div class="flex flex-row-reverse items-center justify-between gap-8 p-6">
+                <!-- Image on the Right -->
+                <div class="w-[800px] mr-50 -mt-6">
+                    <img src="../imgs/open-days.jpg" class="w-full h-auto rounded-lg">
+                </div>
+            
+                <!-- Text and Button on the Left -->
+                <div class="max-w-lg ml-50">
+                    <h1 class="font-bold text-4xl mb-3">Open Days</h1>
+                    <p class="text-lg text-gray-700">
+                        Find out more about what makes life at Goldsmiths unique. Meet
+                        academics and have your questions answered. From campus tours to
+                        informative talks, there's lots to see and do.
+                    </p>
+                    <button class="mt-4 px-10 py-3 bg-amber-300 text-black hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-blue-400 border border-black">
+                        Book your place
+                    </button>
+                </div>
+            </div>
+            
+        </section>
+        <!-- open Days section end -->
     
 
       </main>
+      <script src="/src/js/scrollreveal.min.js"></script>
+      <script src="/src/js/swiper-bundle.min.js"></script>
+      <script src="/src/js/main.js"></script>
 </body>
 </html>
