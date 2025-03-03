@@ -770,6 +770,9 @@
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
   }
+  .mb-10 {
+    margin-bottom: calc(var(--spacing) * 10);
+  }
   .ml-10 {
     margin-left: calc(var(--spacing) * 10);
   }
