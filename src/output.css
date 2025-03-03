@@ -731,6 +731,9 @@
   .-mt-6 {
     margin-top: calc(var(--spacing) * -6);
   }
+  .-mt-10 {
+    margin-top: calc(var(--spacing) * -10);
+  }
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
@@ -748,9 +751,6 @@
   }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
-  }
-  .mt-40 {
-    margin-top: calc(var(--spacing) * 40);
   }
   .mr-10 {
     margin-right: calc(var(--spacing) * 10);
@@ -879,12 +879,6 @@
   .h-\[30vh\] {
     height: 30vh;
   }
-  .h-\[80\%\] {
-    height: 80%;
-  }
-  .h-\[80\] {
-    height: 80;
-  }
   .h-\[90px\] {
     height: 90px;
   }
@@ -893,9 +887,6 @@
   }
   .h-\[640px\] {
     height: 640px;
-  }
-  .h-\[\[\]\] {
-    height: [];
   }
   .h-auto {
     height: auto;
@@ -915,9 +906,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -926,12 +914,6 @@
   }
   .w-\[62\%\] {
     width: 62%;
-  }
-  .w-\[90\%\] {
-    width: 90%;
-  }
-  .w-\[90\] {
-    width: 90;
   }
   .w-\[800px\] {
     width: 800px;
@@ -1361,13 +1343,6 @@
       --tw-space-y-reverse: 1;
     }
   }
-  .space-x-0 {
-    :where(& > :not(:last-child)) {
-      --tw-space-x-reverse: 0;
-      margin-inline-start: calc(calc(var(--spacing) * 0) * var(--tw-space-x-reverse));
-      margin-inline-end: calc(calc(var(--spacing) * 0) * calc(1 - var(--tw-space-x-reverse)));
-    }
-  }
   .space-x-0\.5 {
     :where(& > :not(:last-child)) {
       --tw-space-x-reverse: 0;
@@ -1630,11 +1605,11 @@
   .bg-amber-300 {
     background-color: var(--color-amber-300);
   }
+  .bg-gray-100 {
+    background-color: var(--color-gray-100);
+  }
   .bg-gray-300 {
     background-color: var(--color-gray-300);
-  }
-  .bg-gray-400 {
-    background-color: var(--color-gray-400);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
@@ -1814,14 +1789,8 @@
   .object-top {
     object-position: top;
   }
-  .p-5 {
-    padding: calc(var(--spacing) * 5);
-  }
   .p-6 {
     padding: calc(var(--spacing) * 6);
-  }
-  .p-10 {
-    padding: calc(var(--spacing) * 10);
   }
   .p-30 {
     padding: calc(var(--spacing) * 30);
@@ -1892,17 +1861,8 @@
   .align-top {
     vertical-align: top;
   }
-  .font-\[sans-ser--\] {
-    font-family: sans-ser--;
-  }
-  .font-\[sans-ser\] {
-    font-family: sans-ser;
-  }
   .font-\[sans-serif\] {
     font-family: sans-serif;
-  }
-  .font-\[sans\] {
-    font-family: sans;
   }
   .text-2xl {
     font-size: var(--text-2xl);
