@@ -815,6 +815,9 @@
   .ml-20 {
     margin-left: calc(var(--spacing) * 20);
   }
+  .ml-30 {
+    margin-left: calc(var(--spacing) * 30);
+  }
   .ml-50 {
     margin-left: calc(var(--spacing) * 50);
   }
